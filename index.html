@@ -3,55 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的GitHub网站设计</title>
+    <title>我们的故事与承诺</title>
     <style>
-        /* 在这里添加你的CSS样式 */
+        /* 基础样式设置 */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        main {
+        .container {
+            width: 80%;
+            margin: 0 auto;
             padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        footer {
-            background-color: #333;
-            color: #fff;
+        h1, h2 {
+            color: #333;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        /* 给“我们的一点一滴”和“给小可爱的承诺”添加特定样式 */
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>欢迎来到我的GitHub网站</h1>
-    </header>
-    <main>
-        <h2>关于我</h2>
-        <p>这里是一些关于我的信息...</p>
+    <div class="container">
+        <h1>我们的故事与承诺</h1>
 
-        <h2>我的项目</h2>
-        <ul>
-            <li>项目一：描述...</li>
-            <li>项目二：描述...</li>
-            <li>项目三：描述...</li>
-        </ul>
+        <div class="section" id="our-moments">
+            <h2>我们的一点一滴</h2>
+            <p>这里记录着我们一起度过的每一个美好瞬间，从相识到相知，再到相爱。每一个笑容、每一次拥抱，都值得我们珍藏。</p>
+            <p>记得那次在海边看日出，你紧紧依偎在我怀里，那一刻，我仿佛拥有了全世界。还有那次雨中漫步，虽然淋湿了衣服，但我们的心却更加贴近。</p>
+            <p>这些一点一滴，汇聚成我们爱的河流，流淌在时间的长河中，永不干涸。</p>
+        </div>
 
-        <h2>联系我</h2>
-        <p>如果你有任何问题，请通过以下方式联系我...</p>
-    </main>
-    <footer>
-        <p>&copy; 2023 我的名字. 保留所有权利.</p>
-    </footer>
+        <div class="section" id="promises-to-you">
+            <h2>给小可爱的承诺</h2>
+            <p>亲爱的小可爱，我想对你说，无论未来道路如何坎坷，我都会紧紧握住你的手，陪你一起走过。</p>
+            <p>我承诺，无论遇到什么困难，我都会站在你身边，为你遮风挡雨，给你最坚实的依靠。</p>
+            <p>我承诺，我会用我的全部爱心和耐心，去呵护你、照顾你，让你每天都感受到幸福和温暖。</p>
+            <p>我承诺，我会一直爱你，直到永远。</p>
+        </div>
+    </div>
 </body>
 </html>
